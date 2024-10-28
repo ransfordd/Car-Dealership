@@ -1,0 +1,18 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background: #002347;
+    box-shadow: 0 0 20px 8px rgba(104, 102, 102, 0.616);
+    z-index: 1;
+}
+header h1{
+    margin-left: 15px;
+    font-size: 35px;
+    color: white;
+}

@@ -1,0 +1,134 @@
+body{
+    
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+main{
+    margin-top: 150px;
+}
+
+.welcome{
+    animation-name: slide;
+    animation-duration: 3s;
+    
+
+}
+.news{
+    width: 60%;
+    margin: 0 auto;
+}
+
+@keyframes slide{
+    from{transform: translateX(100%);}
+}
+.deal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+}
+
+.deal-c{
+    box-shadow: 0 0 10px 4px rgba(201, 196, 196, 0.616);
+}
+
+section h1{
+    font-size: 100px;
+}
+
+.deal-image{
+    position: relative;
+    height: 150px;
+}
+
+.deal-image img{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.price{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    position: absolute;
+    right: 8px;
+    bottom: -5px;
+}
+
+.deal-description{
+    
+    padding: 10px;
+}
+
+.about p{
+    display: inline;
+}
+
+.about{
+    text-align: left;
+}
+strong{
+    font-size: 20px;
+}
+
+section{
+    margin-top: 80px;
+    padding: 20px;
+}
+section p{
+    color: black;
+}
+
+
+@media (min-width: 1000px){
+    .deal{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+    .sec1{
+        padding: 50px;
+    }
+}
+
+.sec1{
+    
+    margin-top: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../cars/sedona\ minivan\ \(2\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding-bottom: 100px;
+    height: 600px;
+}
+
+.sec2 h2{
+    font-size: 50px;
+}
+
+.sec2-div{
+    width: 45%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+.sec3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/iron.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sec4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/iron.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
